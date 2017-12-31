@@ -1,0 +1,134 @@
+ul#SocialMediaIcon {
+    width:160px;
+    padding:5px;
+    position:fixed;
+    top: 150px;
+    left: 5px;
+    z-index:1999;
+}
+
+
+#SocialMediaIcon .blackberry a:hover { color: white !important; }
+
+#SocialMediaIcon li {
+	cursor:pointer;
+	height:48px;
+	position:relative;
+	list-style-type:none;
+}
+#SocialMediaIcon .icon {
+	background-color:rgba(217,30,118,.42);
+	border-radius:30px;
+	display:block;
+	color:#141414;
+	float:none;
+	height:48px;
+	line-height:48px;
+	margin:5px 0;
+	position:relative;
+	text-align:left;
+	text-indent:50px;
+	text-shadow:#333 0 1px 0;
+	white-space:nowrap;
+	width:48px;
+	z-index:5;
+	-webkit-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	-moz-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	-o-transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	transition:width .25s ease-in-out,background-color .25s ease-in-out;
+	-webkit-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	-moz-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	-o-box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	box-shadow:rgba(0,0,0,.28) 0 2px 3px;
+	text-decoration:none;
+}
+#SocialMediaIcon span:hover {
+	visibility:hidden;
+}
+#SocialMediaIcon span {
+	display:block;
+	top: 15px;
+	position:absolute;
+	left: 90px;
+}
+#SocialMediaIcon .icon {
+	color:#fafafa;
+	overflow:hidden;
+}
+
+#SocialMediaIcon .wechat {
+	background:#999 url('http://nadabet.com/images/wechat.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .sms {
+	background:#999 url('http://nadabet.com/images/sms.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .line {
+	background:#999 url('http://nadabet.com/images/line.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .blackberry {
+	background: #999  url('http://nadabet.com/images/bbm.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .yahoo {
+	background: #999 url('http://nadabet.com/images/yahoo.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .phone {
+	background: #999 url('http://nadabet.com/images/phone.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .fb {
+	background: #999 url('http://nadabet.com/images/fb.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .ig {
+	background: #999 url('http://nadabet.com/images/ig.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .icon {
+	width:155px;
+}
+#SocialMediaIcon li:hover .icon {
+	/* background-color:#d91e76; */
+}
+#SocialMediaIcon fb:hover .wechat{
+	background:#999 url('http://nadabet.com/images/wechat.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .sms {
+	background:#999 url('http://nadabet.com/images/sms.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .line {
+	background:#999 url('http://nadabet.com/images/line.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .blackberry {
+	background:#999 url('http://nadabet.com/images/bbm.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .yahoo {
+	background:#999 url('http://nadabet.com/images/yahoo.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .phone {
+	background:#999 url('http://nadabet.com/images/phone.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .fb {
+	background:#999 url('http://nadabet.com/images/fb.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon li:hover .ig {
+	background:#999 url('http://nadabet.com/images/ig.png') 0 0 no-repeat;
+	background-color: rgba(33,186,238,0.5);
+}
+#SocialMediaIcon .icon:active {
+	bottom:-2px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	-o-box-shadow: none;
+}
